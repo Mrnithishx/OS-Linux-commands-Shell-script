@@ -42,23 +42,28 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/6dd54fc4-307f-45ea-b32a-f62d4197d1c0)
 
 
 
 cat < file2
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/a1f7d6ee-6ba6-430b-ae93-cdd7b1d4ef1d)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/eaea9c6e-e1fc-4276-87bb-826f5f88e650)
+
 comm file1 file2
  ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/e54cb632-db30-44a2-8e61-6f114c55ee5d)
 
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/4136696f-786d-4cf3-bf4c-6524f78bb07b)
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/73772267-86c3-4f6d-8218-2b0ed4ecc166)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/8eb4e3d0-d130-422e-8ca7-a08292847fb8)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/f48724e9-561e-474b-8518-02ab83d4d835)
 
 
 cat < newfile 
@@ -107,34 +115,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/12bcf8b4-326d-4efb-95fb-068181ce0b50)
 
 
 
 grep hello newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/b0221d4c-244c-4f35-9e18-8b4e9729cc86)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/4547a27a-fca4-4005-a000-c4f01d0b6c3f)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/0ba5e92a-1d12-4902-9984-224b3a55fa46)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/3bbccc92-f007-464c-a7de-805d67bb6207)
 
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/3b2093b7-4953-41c2-adbc-d39e3df16ad8)
 
 
 
@@ -163,59 +177,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/fdc66d0c-6b78-43e4-811f-f671e93d1c16)
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/c856debc-b391-4e09-ad49-2c68c68dee34)
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/0938097c-3091-478e-8b2a-8d1fe8114953)
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/76a2d60b-79a2-47b5-9f56-b044d1fdee1d)
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/b1f2bc72-8f01-4651-9344-28cced55614c)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9afa1d3b-cbf8-416f-a12f-499ac19e7d5d)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/4d3d3a56-075d-433d-90bd-6b02500361b7)
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/ca8f2044-e96a-4e9f-aaa6-a707bf831258)
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/56967860-eab2-4a76-8ccf-cb50c7f00536)
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/c613f6fd-ae34-4895-a118-bcaea1244f27)
 
 
 egrep l{2} newfile
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/bc4f6e72-b350-452a-8044-cbd19a38c396)
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/43137b78-5d78-4b5d-9ea4-719a00cf44e1)
 
 
 cat > file23
@@ -234,75 +260,90 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/84f20ccc-e710-4e1e-bd1a-5eef1bf1426c)
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/3d830f80-86cd-4b47-91ab-fb5c1c79d9a3)
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/cacac2c3-8162-440c-8572-7df2c066e933)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/bc3bad41-5125-497d-9bd5-a474adb37087)
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/8d2f290c-ea9e-4e3f-b07a-86a9c9ac9121)
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/23f7be4c-2361-42c5-887a-75fcb065f501)
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9a6d81d9-6588-4404-8c4a-c22c551595c9)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/845e5856-36b4-4e27-ba7e-97f908e7b305)
 
 
 seq 10 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/aa2db961-6eb3-458e-9bc7-d8111ff8453f)
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9431c2fa-abb8-4415-a340-a37249f30751)
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/a4df66a8-b85b-454b-9166-438bec80630c)
 
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/bebeeeb6-0f16-4bb3-a9fc-47016bc986a2)
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/dc62b988-8c2c-4279-afe2-2653482cce55)
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/0707edfc-302c-4a16-aa5d-8b90855b147b)
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/bf2a2b8c-991b-4ce0-89a7-08290e5c5b8b)
 
 
 
@@ -320,6 +361,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/8c39d437-4fa1-433c-83fd-7b8291d7651f)
 
 
 cat > file22
@@ -333,6 +375,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/90944e6c-99c7-4755-96b2-50f5efccd437)
 
 
 
@@ -356,17 +399,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/f99a8c0d-b3f5-4858-a98e-673d898c8a11)
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/f48fcab6-1bd8-434c-84fc-02898e6e46bc)
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9f129131-0f06-4184-a880-904f7f29da2b)
 
 
 mkdir backupdir
@@ -375,6 +421,7 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/6c6bef99-7b72-437c-a8ee-fdb6109340b0)
 
 
 tar -xvf backup.tar
@@ -387,6 +434,7 @@ ls .gz
  
 gunzip backup.tar.gz
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/db1c702b-cc41-49b1-b215-c0705cd3f061)
 
  
 # Shell Script
@@ -447,10 +495,12 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/74810b17-c385-478f-af6a-b06e651c72d1)
 
  
 ls file1
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/5f2283c1-6383-4504-b56a-fbb8501197d7)
 
 echo $?
 ## OUTPUT 
@@ -459,11 +509,13 @@ bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/420c7005-1947-4751-9deb-762d22f8a344)
+
 abcd
  
 echo $?
  ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/4c58f105-3037-40da-9ef8-484cb04baee5)
 
 
  
@@ -496,6 +548,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/72b6fcea-16bf-4def-83b6-c3f2eec9d414)
 
 
 
@@ -503,6 +556,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/cbab73b8-43f7-46c4-962d-72929b980aea)
 
 
 # check file ownership
@@ -530,6 +584,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/ef4a8379-7f9b-450f-b9cd-ad02b4233e41)
 
 # check if with file location
 cat>ifnested.sh 
@@ -576,6 +631,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9b99c860-f3a2-46ef-847d-30036d9837a8)
 
 
 
@@ -697,6 +753,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/0436f168-cbed-4fda-8a2c-6d64e6964a0a)
 
 
 # testing compound comparisons
@@ -713,6 +770,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/7d1869b5-f926-4d71-bd71-5e96ff6de918)
 
 # using the case command
 cat >casecheck.sh 
@@ -824,6 +882,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/f28927fb-b2d4-4459-a1c2-ce5fe8d11033)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -845,6 +905,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/422edb9e-2451-4dfb-911e-7a2d3d5fc2ab)
 
 
 cat forctype.sh 
@@ -859,6 +920,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/003214c0-11d1-493b-81be-e67cd6ad7812)
 
 cat forctype1.sh 
 ```bash
@@ -872,6 +934,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/e9e554cf-2ecd-495b-93b0-f5cff36e0f29)
 
 cat fornested1.sh 
 ```bash
@@ -890,6 +953,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/44ee34f4-5137-4f4a-8f4b-5d90720c1a29)
 
  
 cat forbreak.sh 
@@ -907,6 +971,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/69c82e3e-3ce8-46fe-884e-ce44d533c35c)
 
 $ chmod 755 forbreak.sh
  
@@ -932,7 +997,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/e4f3208d-2381-4f20-8201-c972ae2da92d)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -946,6 +1012,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/356db1fd-ac51-4a3e-b193-7bfe717a0668)
 
 
  cat exread1.sh
@@ -958,6 +1025,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/770baef3-aa9c-4980-8ce1-45587797a9ad)
 
 
 
@@ -980,6 +1048,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/e2bf06a6-a4fa-4905-9f46-18973f531dac)
 
  
  ./funcex.sh 1 2
@@ -996,6 +1065,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/a028c1d4-c406-4d42-b4f0-ffc829c44c9a)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1013,6 +1084,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/9161c59d-87a4-4ba6-85de-20c48c96dc41)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1027,7 +1100,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/bb9320c9-59fc-4405-95c3-fe8913343b22)
+
  
 cat > nc.awk
 ```bash
@@ -1058,7 +1132,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/c61066df-36f7-48c8-95a2-cb5f4cd3bf12)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1085,6 +1160,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/Mrnithishx/OS-Linux-commands-Shell-script/assets/148201573/3ca89964-c060-409d-9935-7f45cda06e5f)
 
 
 # RESULT:
